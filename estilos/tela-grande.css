@@ -1,0 +1,26 @@
+@charset 'UTF-8';
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body, html{
+    background-image: linear-gradient(to bottom ,#5f2c82,#813ab1);
+    width: 100vw;
+    height: 100vh;
+}
+main{
+    width: 550px;
+}
+section#login{
+    
+    border-radius: 20px;
+    background-color: aqua;
+    width: 500px;
+    height: 260px;
+}
+section#login > div#imagem{
+    display: block;
+
+}

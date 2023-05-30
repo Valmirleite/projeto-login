@@ -8,7 +8,8 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
     padding: 0px;
-    margin: 0px;   
+    margin: 0px; 
+    box-sizing: border-box;  
 }
 body, html{
     background-color: #5f2c82;
@@ -28,7 +29,7 @@ section#login{
     transform: translate(-50%, -50%);
     border-radius: 20px;
     background-color: aqua;
-    width: 250px;
+    width: 260px;
     height: 500px;
     padding: 10px;
 }
@@ -36,10 +37,73 @@ section#login > div#imagem{
     display: block;
     background-image: url(../imagens/tela-login.jpg) ;
     background-size: cover;
-    height: 220px;
+    height: 200px;
     margin: -10px;
 } 
-h1, p{
+div#formulario > h1{
     margin-top: 8px;
+    text-align: center;
+}
+div#formulario > p{
+    margin-top: 10px;
+    padding: 6px;
+    font-size: 0.8em;
+}
+div.campo{
+    background-color: #5f2c82;
+    margin: 5px 0px;
+    border-radius: 6px;
+}
+form > div > input{
+    background-color: #61d4d1;
+    border: none;
+    border-radius: 6px;
+    height: 40px;
+    width: calc(100% - 54px);
+    transform: translateY(-6px);
+}
+div.campo > i{
+    color: white;
+    font-size: 1.8em;
+    padding: 8px;
+    
+}
+
+ input[type=submit]{
+    display: block;
+    width: 100%;
+    height: 30px;
+    border: none;
+    margin: 5px 0px;
+    color: white;
+    font-weight: bolder;
+    background-color: #49a09d;
+    border-radius: 5px;
+    border: 2px solid #3f8b89
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    background-color: #2a5f5d;
+}
+form > a.botao{
+    display: block;
+    width: 100%;
+    height: 30px;
+    color: #2d6462;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1em;
+    padding-top: 5px;  
+}
+form > a.botao:hover{
+    background-color: #4a918e;
+    color: black;
+}
+form > a.botao > i{
+    font-size: 0.8em;
+    padding-top: 5px;
+    
 }
    
